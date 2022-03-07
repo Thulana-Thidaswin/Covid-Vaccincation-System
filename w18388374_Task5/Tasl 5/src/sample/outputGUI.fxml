@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GuiController">
+   <children>
+      <Text fill="#00f8df" layoutX="121.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient First Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00f8df" layoutX="121.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Second Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00f8df" layoutX="121.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00f8df" layoutX="121.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00f8df" layoutX="120.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00f8df" layoutX="119.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vaccination Type">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="flabel" layoutX="286.0" layoutY="97.0" prefHeight="17.0" prefWidth="161.0" textFill="#00f8df" />
+      <Label fx:id="slabel" layoutX="286.0" layoutY="127.0" prefHeight="17.0" prefWidth="161.0" textFill="#00f8df" />
+      <Label fx:id="alabel" layoutX="294.0" layoutY="158.0" prefHeight="17.0" prefWidth="145.0" textFill="#00f8df" />
+      <Label fx:id="clabel" layoutX="310.0" layoutY="192.0" prefHeight="17.0" prefWidth="114.0" textFill="#00f8df" />
+      <Label fx:id="nlabel" layoutX="294.0" layoutY="225.0" prefHeight="17.0" prefWidth="130.0" textFill="#00f8df" />
+      <Label fx:id="vTlabel" layoutX="286.0" layoutY="271.0" prefHeight="17.0" prefWidth="130.0" textFill="#00f8df" />
+      <Label fx:id="tlabel" layoutX="432.0" layoutY="363.0" prefHeight="17.0" prefWidth="145.0" textFill="#00f8df" />
+      <Text fill="PINK" layoutX="91.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for using Thulana's Covid AI !!" wrappingWidth="389.13671875">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

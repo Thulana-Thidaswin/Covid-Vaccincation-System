@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text fill="#00f8df" layoutX="67.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="83.0625">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00f8df" layoutX="67.0" layoutY="127.0" stroke="#2e2f2f" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="firstName" layoutX="205.0" layoutY="79.0" prefHeight="25.0" prefWidth="163.0" />
+      <TextField fx:id="secondName" layoutX="205.0" layoutY="109.0" prefHeight="25.0" prefWidth="163.0" />
+      <Text fill="#00f8df" layoutX="85.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" wrappingWidth="46.08203125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="age" layoutX="205.0" layoutY="143.0" prefHeight="25.0" prefWidth="163.0" />
+      <Button layoutX="458.0" layoutY="332.0" mnemonicParsing="false" onAction="#generateR" style="-fx-background-color: black;" text="Generate Recipet" textFill="#00f8df" />
+      <Text fill="#00f8df" layoutX="86.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="city" layoutX="205.0" layoutY="176.0" prefHeight="25.0" prefWidth="163.0" />
+      <Text fill="#00f8df" layoutX="82.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC" wrappingWidth="34.1328125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NIC" layoutX="205.0" layoutY="208.0" prefHeight="25.0" prefWidth="163.0" />
+      <Text fill="#00f8df" layoutX="67.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vaccination Type">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <SplitMenuButton fx:id="vType" layoutX="206.0" layoutY="259.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#AstraZeneca" text="AstraZeneca" />
+          <MenuItem mnemonicParsing="false" onAction="#Sinopharm" text="Sinopharm" />
+            <MenuItem mnemonicParsing="false" onAction="#Pfizer" text="Pfizer" />
+        </items>
+      </SplitMenuButton>
+      <Text fill="#f5b0bc" layoutX="127.0" layoutY="49.0" stroke="PINK" strokeType="INSIDE" text="Thulanas Covid Vaccination AI">
+         <font>
+            <Font name="Century" size="22.0" />
+         </font>
+      </Text>
+   </children>
+   <cursor>
+      <Cursor fx:constant="SW_RESIZE" />
+   </cursor>
+</AnchorPane>
